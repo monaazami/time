@@ -33,7 +33,7 @@ function renderTime(){
         }
         var myClock=document.getElementById("clock");
         myClock.textContent = dayArray[day] + dayM + monthArray[month]+ year + h + m + s;
-        myClock.innerText =""+ dayArray[day]+ " " + dayM + " " + monthArray[month]+ " " + year + "   ***   " + h + " " + m + " " + s;
+        myClock.innerText =""+ dayArray[day]+ ", " + dayM + " " + monthArray[month]+ " " + year + "   ***   " + h + ":" + m + ":" + s;
         setTimeout ("renderTime()",1000);
 }
 

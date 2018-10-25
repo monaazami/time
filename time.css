@@ -1,9 +1,13 @@
 .myclock{
     border: 2px solid rgb(47, 0, 0);
     background-color: rgb(255, 241, 204);
-    padding: 50px;
+    padding: 20px;
     margin: auto;
     max-width: 60%;
+    font-weight: bold;
+    width: 340px;
+    text-align: center;
+    border-radius:10px;
 
 }
 
@@ -11,5 +15,6 @@ h1{
     margin: auto;
     max-width: 60%;
     padding:90px;
+    text-align: center;
 
 }
