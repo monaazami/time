@@ -1,0 +1,15 @@
+.myclock{
+    border: 2px solid rgb(47, 0, 0);
+    background-color: rgb(255, 241, 204);
+    padding: 50px;
+    margin: auto;
+    max-width: 60%;
+
+}
+
+h1{
+    margin: auto;
+    max-width: 60%;
+    padding:90px;
+
+}
