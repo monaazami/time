@@ -38,3 +38,27 @@ function renderTime(){
 }
 
 renderTime();
+
+
+body= document.querySelector('body');
+isBlue = false;
+setInterval(function(){
+    if(isBlue){
+        body.style.background="#5989d6";
+    }else{ 
+        body.style.background="#6091e0";
+    }
+    isBlue = !isBlue;
+},1000);
+
+
+colorChanged= document.getElementById("colorChange");
+isGreen = false;
+setInterval(function(){
+    if(isGreen){
+        colorChanged.style.background="#6091e0";
+    }else{ 
+        colorChanged.style.background="#5989d6";
+    }
+    isGreen = !isGreen;
+},1000);
