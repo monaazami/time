@@ -72,4 +72,6 @@ button.addEventListener("click", function(){
 var h1 = document.querySelector('h1');
 h1.addEventListener("click",function(){
     alert("Would you like to join us?");
+    h1.style.background = "blue";
+    h1.style.color = "white";
 })
