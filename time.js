@@ -65,6 +65,7 @@ setInterval(function(){
 
 
 var button= document.querySelector("button");
+var paragraph = document.querySelector("p");
 button.addEventListener("click", function(){
-    console.log("somebody has clicked me!");
+    paragraph.textContent = "somebody has clicked me!";
 })
