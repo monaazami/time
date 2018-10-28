@@ -69,3 +69,7 @@ var paragraph = document.querySelector("p");
 button.addEventListener("click", function(){
     paragraph.textContent = "somebody has clicked me!";
 })
+var h1 = document.querySelector('h1');
+h1.addEventListener("click",function(){
+    alert("Would you like to join us?");
+})
