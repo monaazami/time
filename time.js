@@ -62,3 +62,9 @@ setInterval(function(){
     }
     isGreen = !isGreen;
 },1000);
+
+
+var button= document.querySelector("button");
+button.addEventListener("click", function(){
+    console.log("somebody has clicked me!");
+})
